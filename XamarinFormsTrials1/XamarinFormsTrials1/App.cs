@@ -12,22 +12,24 @@ namespace XamarinFormsTrials1
         public App()
         {
             // The root page of your application
-            var content = new ContentPage
-            {
-                Title = "XamarinFormsTrials1",
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
+            //var content = new ContentPage
+            //{
+            //    Title = "XamarinFormsTrials1",
+            //    Content = new StackLayout
+            //    {
+            //        VerticalOptions = LayoutOptions.Center,
+            //        Children = {
+            //            new Label {
+            //                HorizontalTextAlignment = TextAlignment.Center,
+            //                Text = "Welcome to Xamarin Forms!"
+            //            }
+            //        }
+            //    }
+            //};
 
-            MainPage = new NavigationPage(content);
+            //MainPage = new NavigationPage(content);
+            MainPage = new MagicPage();
+
         }
 
         protected override void OnStart()
