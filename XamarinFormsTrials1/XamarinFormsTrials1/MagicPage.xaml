@@ -6,10 +6,25 @@
   
   <ContentPage.Content>
     <StackLayout>
-      <Label Text ="(8)" Font = "72"/>
-      <Button Text ="Shake" Clicked ="ShakeClicked"/>
-      <Label x:Name ="output"/>
-    </StackLayout>
+  <Frame OutlineColor="Silver" 
+         VerticalOptions="LayoutOptions.Start" 
+         HorizontalOptions ="LayoutOptions.FillAndExpand"
+         Margin="20, 10, 20, 0">
+    <Label Text="I'm gonna dance"></Label>
+  </Frame>
+  <Frame OutlineColor="Silver" 
+         VerticalOptions="LayoutOptions.Start" 
+         HorizontalOptions ="LayoutOptions.FillAndExpand"
+         Margin="20, 10, 20, 0">
+    <Label Text="I'm gonna dance2"></Label>
+  </Frame>
+      <Frame OutlineColor="Silver" 
+         VerticalOptions="LayoutOptions.Start" 
+         HorizontalOptions ="LayoutOptions.FillAndExpand"
+         Margin="20, 10, 20, 0">
+    <Label Text="I'm gonna dance3"></Label>
+  </Frame>
+</StackLayout>
   </ContentPage.Content>
 
 </ContentPage>

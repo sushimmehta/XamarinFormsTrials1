@@ -17,7 +17,7 @@ namespace XamarinFormsTrials1
         void ShakeClicked(object s, EventArgs e)
         {
             var rnd = new System.Random();
-            output.Text = "test";
+            //output.Text = "test";
         }
 
     }

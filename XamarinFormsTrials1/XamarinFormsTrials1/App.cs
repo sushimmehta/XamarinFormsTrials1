@@ -29,8 +29,9 @@ namespace XamarinFormsTrials1
 
             //MainPage = new NavigationPage(content);
 
-            //MainPage = new NavigationPage (new MagicPage());
+            MainPage = new NavigationPage (new MagicPage());
 
+            /*
             MainPage = new ContentPage()
             {
                 Content = new Frame
@@ -43,6 +44,7 @@ namespace XamarinFormsTrials1
                 }
 
             };
+            */
 
 
         }
