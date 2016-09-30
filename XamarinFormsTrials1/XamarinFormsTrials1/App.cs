@@ -28,7 +28,7 @@ namespace XamarinFormsTrials1
             //};
 
             //MainPage = new NavigationPage(content);
-            MainPage = new MagicPage();
+            MainPage = new NavigationPage (new MagicPage());
 
         }
 
