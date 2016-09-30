@@ -28,7 +28,22 @@ namespace XamarinFormsTrials1
             //};
 
             //MainPage = new NavigationPage(content);
-            MainPage = new NavigationPage (new MagicPage());
+
+            //MainPage = new NavigationPage (new MagicPage());
+
+            MainPage = new ContentPage()
+            {
+                Content = new Frame
+                {
+                    Content = new Label { Text = "I'm Framous!" },
+                    OutlineColor = Color.Silver,
+                    VerticalOptions = LayoutOptions.CenterAndExpand,
+                    HorizontalOptions = LayoutOptions.FillAndExpand,
+                    Margin = new Thickness(20, 20, 20, 20)
+                }
+
+            };
+
 
         }
 
